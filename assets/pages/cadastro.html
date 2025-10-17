@@ -18,24 +18,24 @@
       <h1 id="Quiz-0">Quiz-0</h1>
       <div class="campo-login">
         <h2 id="login-h2">Login:</h2>
-        <p class="top-input-text">E-mail:</p>
-        <input type="text" placeholder="Insira seu E-mail" class="input-area" />
-        <p class="top-input-text">Senha:</p>
-        <input
-          type="password"
-          placeholder="Insira sua senha"
-          class="input-area"
-        />
+        <label for="email" class="top-input-text">E-mail:</label>
+        <input type="text" name="email" class="input-area" />
+        <label for="senha" class="top-input-text">Senha:</label>
+        <input type="password" name="senha" class="input-area" />
         <p class="top-input-text"><a href="">Esqueceu a senha?</a></p>
-        <button><a href="">Logar</a></button>
+        <a href=""><button class="login-button">Logar</button></a>
       </div>
       <div class="opcao-google">
         <p>ou continue com</p>
-        <button>
-          <a href=""
-            ><img src="/assets/img/google-logo.png" alt="" class="logo-img"
-          /></a>
-        </button>
+        <a href="">
+          <button id="google-button">
+            <img
+              src="/assets/img/google-logo.png"
+              alt="Botão do Google"
+              class="logo-img"
+            />
+          </button>
+        </a>
       </div>
     </div>
   </body>
