@@ -1,0 +1,33 @@
+There’s no <form>. Inputs, validation, and submission behavior should live inside a form with method/action or be wired to JavaScript explicitly.
+Use <button type="submit"> instead of wrapping a <button> inside an <a>.
+Broken label-for / id linkage
+
+Labels use for="email" and for="senha" but the inputs have no id attributes. Add matching id values so assistive tech links labels to controls.
+Input types and validation
+
+Use type="email" for the email field, add required attributes and, if desired, pattern or minlength for better client-side validation.
+Accessibility and semantics
+
+Page uses lang="en" while content is Portuguese. Set lang="pt-BR".
+Consider using <main>, <header>, ARIA attributes where appropriate.
+Provide meaningful aria-labels for non-text controls (e.g., the Google button). The image already has alt but consider alt text describing the action.
+Link/button semantics
+
+Don’t wrap interactive controls in anchors. Choose either an anchor (<a>) for navigation or a <button> for actions/submission.
+"Esqueceu a senha?" should be a real link to a password recovery page (and not an empty href="").
+SEO / metadata / consistency
+
+File is named cadastro.html but title says "Página de Login" and H2 says "Login:" — make naming consistent (login vs. cadastro).
+The H1 content "Quiz-0" is fine but avoid ID names with special characters if you plan to target them in CSS/JS.
+Internationalization / fonts
+
+Preconnect and font usage are fine. If you serve Portuguese, update lang attribute as noted.
+Security considerations
+
+If real auth will be implemented, ensure passwords are sent over HTTPS, avoid exposing sensitive info in client-side code, and implement server-side validation and CSRF protection.
+Small suggested corrected structure
+
+Wrap the fields in a <form> with method="post".
+Add id attributes to inputs and match label for attributes.
+Use type="email" and type="password" and add required.
+Use button type="submit" for login and a separate button (or link) for Google auth with aria-label.
