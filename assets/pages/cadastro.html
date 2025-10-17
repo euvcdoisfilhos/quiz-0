@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Página de Login</title>
@@ -9,19 +15,27 @@
 
   <body>
     <div class="login-container">
-      <h1>Quiz-0</h1>
+      <h1 id="Quiz-0">Quiz-0</h1>
       <div class="campo-login">
-        <h2>Login</h2>
-        <p>E-mail:</p>
-        <input type="text" placeholder="Insira seu E-mail" />
-        <p>Senha:</p>
-        <input type="password" placeholder="Insira sua senha" />
-        <p><a href="">Esqueceu a senha?</a></p>
-        <button>Logar</button>
+        <h2 id="login-h2">Login:</h2>
+        <p class="top-input-text">E-mail:</p>
+        <input type="text" placeholder="Insira seu E-mail" class="input-area" />
+        <p class="top-input-text">Senha:</p>
+        <input
+          type="password"
+          placeholder="Insira sua senha"
+          class="input-area"
+        />
+        <p class="top-input-text"><a href="">Esqueceu a senha?</a></p>
+        <button><a href="">Logar</a></button>
       </div>
       <div class="opcao-google">
         <p>ou continue com</p>
-        <button></button>
+        <button>
+          <a href=""
+            ><img src="/assets/img/google-logo.png" alt="" class="logo-img"
+          /></a>
+        </button>
       </div>
     </div>
   </body>
