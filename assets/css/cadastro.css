@@ -3,10 +3,12 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
+  font-style: bold;
 }
 a {
   text-decoration: none;
   color: white;
+  cursor: pointer;
 }
 
 body {
@@ -16,40 +18,66 @@ body {
   justify-content: center;
   align-items: center;
 }
-.login-container {
-  background-color: #882ff6;
+
+div.login-container {
+  background-color: #6921d2;
   color: white;
-  height: 600px;
-  width: 400px;
-  border-radius: 25px;
-  padding: 20px;
+  border-radius: 1.5rem;
+  padding: 2rem;
 }
 
-#Quiz-0{
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 40px;
-    font-style: bold;
+#Quiz-0 {
+  text-align: center;
+  font-size: 3rem;
+  font-style: bold;
 }
 
-#login-h2{
-    font-size: 30px;
+#login-h2 {
+  font-size: 2rem;
 }
 
 .top-input-text {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  display: block;
 }
 
 .input-area {
-  border-radius: 25px;
-  height: 30px;
+  border-radius: 1.5rem;
+  height: 2.4rem;
   padding: 5px;
-  width: 200px;
+  width: 20rem;
   border: none;
 }
 
+.login-button {
+  background-color: #f99d07;
+  color: #6921d2;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 8px;
+  width: 20rem;
+  font-size: 1.1rem;
+  cursor: pointer; /* Adiciona o cursor pointer no botao para indicar que é clicável */
+}
+
+.opcao-google {
+  text-align: center;
+}
+.opcao-google p {
+  padding: 1rem;
+}
+
+#google-button {
+  width: 8rem;
+  border-radius: 1.5rem;
+  border: none;
+  cursor: pointer; /* Adiciona o cursor pointer no botao para indicar que é clicável */
+}
+
 .logo-img {
-  width: 20px;
+  width: 3.5rem;
+  height: auto;
+  padding: 5px;
 }
