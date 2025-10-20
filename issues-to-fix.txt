@@ -1,0 +1,7 @@
+If real auth will be implemented, ensure passwords are sent over HTTPS, avoid exposing sensitive info in client-side code, and implement server-side validation and CSRF protection.
+Small suggested corrected structure
+
+Wrap the fields in a <form> with method="post".
+Add id attributes to inputs and match label for attributes.
+Use type="email" and type="password" and add required.
+Use button type="submit" for login and a separate button (or link) for Google auth with aria-label.

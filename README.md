@@ -21,5 +21,5 @@ Com certeza! Os códigos Hexadecimais (Hex) presentes na paleta de cores são:
 * **Verde:** rgba(53, 212, 97, 1)
 * **Amarelo:** #F9E104
 * **Laranja:** #F99D07
-* **Roxo/Violeta:** #882FF6
+* **Roxo/Violeta:** #6921D2
 * **Azul:** #37B6F6

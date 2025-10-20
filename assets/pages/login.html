@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página de Login</title>
+    <link rel="stylesheet" href="/assets/css/login.css" />
+  </head>
+
+  <body>
+    <div class="login-container">
+      <h1 id="Quiz-0">Quiz-0</h1>
+      <div class="campo-login">
+        <h2 id="login-h2">Login:</h2>
+        <label for="email" class="top-input-text">E-mail:</label>
+        <input
+          type="email"
+          name="email"
+          class="input-area"
+          id="email"
+          method="post"
+          required
+        />
+        <label for="senha" class="top-input-text">Senha:</label>
+        <input
+          type="password"
+          name="senha"
+          class="input-area"
+          id="senha"
+          method="post"
+          required
+        />
+        <p class="top-input-text"><a href="">Esqueceu a senha?</a></p>
+        <p class="top-input-text">
+          <a href="">Não possui conta? Cadastre-se</a>
+        </p>
+        <button class="login-button" type="submit">Logar</button>
+      </div>
+      <div class="opcao-google">
+        <p>ou continue com</p>
+        <button id="google-button">
+          <img
+            src="/assets/img/google-logo.png"
+            alt="Botão do Google"
+            class="logo-img"
+          />
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
