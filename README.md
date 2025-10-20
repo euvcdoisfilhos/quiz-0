@@ -1,7 +1,3 @@
-Here’s a suggested **README.md** for your repository **“quiz-0”** (feel free to adjust wording, sections or logos as you see fit):
-
----
-
 # Quiz Site
 
 Um site de quizzes com perguntas aleatórias, sistema de cadastro/login e pontuação final.
@@ -80,7 +76,3 @@ Consulte o arquivo `issues-to-fix.txt` para ver a lista de tarefas planejadas ou
 Este projeto está licenciado sob a **Licença MIT**. Veja o arquivo `LICENSE` para mais detalhes. ([GitHub][1])
 
 ---
-
-Se quiser, posso também gerar um **template README** com seções pré-formatadas (badges, captura de tela, deployment, etc.). Você quer isso?
-
-[1]: https://github.com/euvcdoisfilhos/quiz-0 "GitHub - euvcdoisfilhos/quiz-0: Quiz site."
