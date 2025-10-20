@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -10,7 +10,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Página de Login</title>
-    <link rel="stylesheet" href="/assets/css/cadastro.css" />
+    <link rel="stylesheet" href="/assets/css/login.css" />
   </head>
 
   <body>
@@ -19,23 +19,38 @@
       <div class="campo-login">
         <h2 id="login-h2">Login:</h2>
         <label for="email" class="top-input-text">E-mail:</label>
-        <input type="text" name="email" class="input-area" />
+        <input
+          type="email"
+          name="email"
+          class="input-area"
+          id="email"
+          method="post"
+          required
+        />
         <label for="senha" class="top-input-text">Senha:</label>
-        <input type="password" name="senha" class="input-area" />
+        <input
+          type="password"
+          name="senha"
+          class="input-area"
+          id="senha"
+          method="post"
+          required
+        />
         <p class="top-input-text"><a href="">Esqueceu a senha?</a></p>
-        <a href=""><button class="login-button">Logar</button></a>
+        <p class="top-input-text">
+          <a href="">Não possui conta? Cadastre-se</a>
+        </p>
+        <button class="login-button" type="submit">Logar</button>
       </div>
       <div class="opcao-google">
         <p>ou continue com</p>
-        <a href="">
-          <button id="google-button">
-            <img
-              src="/assets/img/google-logo.png"
-              alt="Botão do Google"
-              class="logo-img"
-            />
-          </button>
-        </a>
+        <button id="google-button">
+          <img
+            src="/assets/img/google-logo.png"
+            alt="Botão do Google"
+            class="logo-img"
+          />
+        </button>
       </div>
     </div>
   </body>
