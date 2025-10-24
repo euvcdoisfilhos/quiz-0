@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #a878eb;
+}
+
+li{
+    list-style: none;
+    display: inline;
+    font-size: calc(10px + 2vw); /* o primeiro valor da funcao calc() define o tamanho minimo da fonte o segundo valor define o tamanho maximo */
+    margin-right: 5vw;
+    font-family: 'Cherry Bomb One', cursive;
+    text-shadow: 3px 1px 2px black;
+}
+
+.menu-navegacao{
+    width: 100%;
+    background-color: #31a75b;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
