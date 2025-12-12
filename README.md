@@ -3,9 +3,3 @@
 Um site de quizzes com perguntas aleatórias, sistema de cadastro/login e pontuação final.
 
 O projeto visa desenvolver uma plataforma web para professores que buscam aplicar revisões e atividades de prática de forma dinâmica, reduzindo significativamente o trabalho manual de preparação. O objetivo central é oferecer uma ferramenta que gere perguntas aleatórias com quatro alternativas (uma correta), utilizando um modelo de Linguagem Grande (LLM) para a criação automatizada do conteúdo. Inicialmente, o projeto será de pequena escala para testes locais, com uma visão futura de implementação em um servidor local e um domínio acessível por outros dispositivos para testes mais amplos. As funcionalidades iniciais incluirão uma Landing Page e uma página de Cadastro, com planos de expansão para incluir modos de jogos e filtros de conteúdo. A pilha tecnológica proposta para o desenvolvimento envolve Next.js (React), Tailwind CSS e TypeScript para o frontend; Node.js + Express.js ou Python + FastAPI para o backend; o uso de Vercel AI SDK ou os SDKs oficiais OpenAI/Gemini para a integração com o LLM; PostgreSQL com extensão pgvector para banco de dados e gerenciamento de conteúdo via Storyblok ou Contentful.
-
-## 📄 Licença
-
-Este projeto está licenciado sob a **Licença MIT**. Veja o arquivo `LICENSE` para mais detalhes. ([GitHub][1])
-
----
