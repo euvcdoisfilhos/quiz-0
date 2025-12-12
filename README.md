@@ -2,4 +2,40 @@
 
 Um site de quizzes com perguntas aleatórias, sistema de cadastro/login e pontuação final.
 
-🚀 Plataforma de Geração de Atividades e Revisões com IA🌟 Visão Geral do ProjetoEste projeto visa o desenvolvimento de uma plataforma web inovadora, destinada a professores, que automatiza a criação de revisões e atividades de prática utilizando um Modelo de Linguagem Grande (LLM). O objetivo central é reduzir drasticamente o trabalho manual de preparação de material didático, oferecendo uma ferramenta dinâmica e escalável.✨ Objetivos Centrais e Funcionalidades🎯 Objetivo PrincipalGerar dinamicamente e de forma aleatória questões de múltipla escolha com quatro alternativas, sendo apenas uma delas correta, utilizando um LLM.⚙️ Funcionalidades Iniciais (MVP)Landing Page: Uma página inicial informativa para apresentar o projeto.Página de Cadastro (Sign-up): Para registro inicial de usuários (professores).Geração de Questões: Funcionalidade principal de criação de conteúdo via IA.📈 Futuras Expansões (Roadmap)Modos de Jogo: Introdução de funcionalidades de gamificação para tornar as revisões mais engajadoras.Filtros de Conteúdo Avançados: Opções para refinar a geração de questões por tópico, nível de dificuldade, e tipo de prova.Implementação em Servidor Local/Domínio: Migração de testes locais para um ambiente acessível por outros dispositivos.💻 Pilha Tecnológica Proposta (Tech Stack)A arquitetura do projeto será baseada em uma pilha de tecnologias moderna e escalável, ideal para integração com serviços de Inteligência Artificial.CamadaTecnologiaPropósitoFrontendNext.js (React)Criação de interface de usuário (UI) rápida e eficiente, com foco em desempenho e SEO.EstilizaçãoTailwind CSSFramework CSS "utility-first" para design responsivo e desenvolvimento rápido de UI.TipagemTypeScriptGarante código robusto, escalável e com menos erros através da tipagem estática.Backend (API)Node.js + Express.js ou Python + FastAPIServiço de API para gerenciar a lógica de negócios, autenticação e a integração central com o LLM.Integração IAVercel AI SDK ou SDKs Oficiais (OpenAI/Gemini)Conexão otimizada e eficiente com os Modelos de Linguagem Grande para a geração de conteúdo.Banco de DadosPostgreSQL com pgvectorArmazenamento de dados estruturados (usuários, atividades salvas, notas) e suporte a embeddings para futuras funcionalidades de busca semântica/RAG.CMSStoryblok ou ContentfulGerenciamento de conteúdo headless (Landing Page, documentação, termos de uso) para facilitar a edição por não-desenvolvedores.🛠️ Detalhes de Implementação🌐 Ambiente de Teste InicialO projeto será desenvolvido e testado inicialmente em um ambiente local (localhost).📡 Visão de DeploymentA próxima fase de testes envolverá a migração para um servidor local com um domínio acessível, permitindo que um grupo maior de usuários (professores testadores) acesse e utilize a plataforma para validação.
+🚀 Plataforma de Geração de Atividades e Revisões com IA
+
+🌟 Visão Geral do Projeto
+
+Este projeto visa o desenvolvimento de uma plataforma web inovadora, destinada a professores, que automatiza a criação de revisões e atividades de prática utilizando um Modelo de Linguagem Grande (LLM). O objetivo central é reduzir drasticamente o trabalho manual de preparação de material didático, oferecendo uma ferramenta dinâmica e escalável.
+
+✨ Objetivos Centrais e Funcionalidades
+🎯 Objetivo Principal
+- Gerar dinamicamente e de forma aleatória questões de múltipla escolha com quatro alternativas, sendo apenas uma delas correta, utilizando um LLM.
+  
+⚙️ Funcionalidades Iniciais (MVP)
+- Landing Page: Uma página inicial informativa para apresentar o projeto.
+- Página de Cadastro (Sign-up): Para registro inicial de usuários (professores).
+- Geração de Questões: Funcionalidade principal de criação de conteúdo via IA.
+
+📈 Futuras Expansões (Roadmap)
+- Modos de Jogo: Introdução de funcionalidades de gamificação para tornar as revisões mais engajadoras.
+- Filtros de Conteúdo Avançados: Opções para refinar a geração de questões por tópico, nível de dificuldade, e tipo de prova.
+- Implementação em Servidor Local/Domínio: Migração de testes locais para um ambiente acessível por outros dispositivos.
+
+💻 Tech Stack 
+A arquitetura do projeto será baseada em uma pilha de tecnologias moderna e escalável, ideal para integração com serviços de Inteligência Artificial. 
+- Frontend: Next.js (React) : Criação de interface de usuário (UI) rápida e eficiente, com foco em desempenho e SEO.
+- Estilização: Tailwind CSS: Framework CSS "utility-first" para design responsivo e desenvolvimento rápido de UI.
+- Tipagem: TypeScript: Garante código robusto, escalável e com menos erros através da tipagem estática.
+- Backend (API): Node.js + Express.js ou Python + FastAPIServiço de API para gerenciar a lógica de negócios, autenticação e a integração central com o LLM.
+- Integração IAVercel AI SDK ou SDKs Oficiais (OpenAI/Gemini)Conexão otimizada e eficiente com os Modelos de Linguagem Grande para a geração de conteúdo.
+- Banco de DadosPostgreSQL com pgvectorArmazenamento de dados estruturados (usuários, atividades salvas, notas) e suporte a embeddings para futuras funcionalidades de busca semântica/RAG.
+- CMS: Storyblok ou ContentfulGerenciamento de conteúdo headless (Landing Page, documentação, termos de uso) para facilitar a edição por não-desenvolvedores.
+
+🛠️ Detalhes de Implementação
+
+🌐 Ambiente de Teste Inicial
+O projeto será desenvolvido e testado inicialmente em um ambiente local.
+
+📡 Visão de Deployment
+A próxima fase de testes envolverá a migração para um servidor local com um domínio acessível, permitindo que um grupo maior de usuários (professores testadores) acesse e utilize a plataforma para validação.
