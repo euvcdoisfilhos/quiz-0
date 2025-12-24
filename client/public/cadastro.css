@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+  font-style: bold;
+}
+a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+body {
+  background-color: #37b6f6;
+  min-height: 100vh;
+  display: flex; /* o display flex com o justify-content e align-items, o body centraliza todos os elementos filhos ao centro da pagina */
+  justify-content: center;
+  align-items: center;
+}
+
+div.login-container {
+  background-color: #6921d2;
+  color: white;
+  border-radius: 1.5rem;
+  padding: 2rem;
+}
+
+#Quiz-0 {
+  text-align: center;
+  font-size: 3rem;
+  font-style: bold;
+}
+
+#cadastro-h2 {
+  font-size: 2rem;
+}
+
+.top-input-text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  display: block;
+}
+
+.input-area {
+  border-radius: 1.5rem;
+  height: 2.4rem;
+  padding: 5px;
+  width: 20rem;
+  border: none;
+  display: block;;
+}
+
+.cadastro-button {
+  background-color: #f99d07;
+  color: #6921d2;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 8px;
+  width: 20rem;
+  font-size: 1.1rem;
+  cursor: pointer; /* Adiciona o cursor pointer no botao para indicar que é clicável */
+  margin-top: 1.5rem;
+}
