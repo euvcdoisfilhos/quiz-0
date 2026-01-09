@@ -69,3 +69,25 @@ body {
   /* Adiciona o cursor pointer no botao para indicar que é clicável */
   margin-top: 1.5rem;
 }
+
+p{
+  text-align: center;
+  margin: 15px;
+}
+
+.google-button {
+  background-color: white;
+  color: #6921d2;
+  border: none;
+  border-radius: 20px;
+  width: 100%;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+#logo-img {
+  width: 4.5rem;
+  height: auto;
+  padding: 5px;
+  padding-top: 10px;
+}
