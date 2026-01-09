@@ -15,21 +15,22 @@ a {
 body {
   background-color: #37b6f6;
   min-height: 100vh;
-  display: flex; /* o display flex com o justify-content e align-items, o body centraliza todos os elementos filhos ao centro da pagina */
+  display: flex;
+  /* o display flex com o justify-content e align-items, o body centraliza todos os elementos filhos ao centro da pagina */
   justify-content: center;
   align-items: center;
 }
 
-div.sign-in-box {
+.sign-in-box {
   background-color: #6921d2;
   color: white;
-  border-radius: 1.5rem;
+  border-radius: 20px;
   padding: 2rem;
 }
 
 #box-title {
   text-align: center;
-  font-size: 3rem;
+  font-size: clamp(20px, 45px, 50px);
   font-style: bold;
 }
 
@@ -45,22 +46,24 @@ div.sign-in-box {
 }
 
 .input-area {
-  border-radius: 1.5rem;
+  border-radius: 20px;
   height: 2.4rem;
   padding: 5px;
   width: 20rem;
   border: none;
-  display: block;;
+  display: block;
+  ;
 }
 
 .cadastro-button {
   background-color: #f99d07;
   color: #6921d2;
   border: none;
-  border-radius: 1.5rem;
+  border-radius: 20px;
   padding: 8px;
   width: 20rem;
   font-size: 1.1rem;
-  cursor: pointer; /* Adiciona o cursor pointer no botao para indicar que é clicável */
+  cursor: pointer;
+  /* Adiciona o cursor pointer no botao para indicar que é clicável */
   margin-top: 1.5rem;
 }
