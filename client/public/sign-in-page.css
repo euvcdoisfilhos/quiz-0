@@ -25,7 +25,9 @@ body {
   background-color: #6921d2;
   color: white;
   border-radius: 20px;
-  padding: 2rem;
+  padding: 20px;
+  width: clamp(300px, 500px, 700px);
+  margin: 25px;
 }
 
 #box-title {
@@ -49,7 +51,7 @@ body {
   border-radius: 20px;
   height: 2.4rem;
   padding: 5px;
-  width: 20rem;
+  width: 100%;
   border: none;
   display: block;
   ;
@@ -61,7 +63,7 @@ body {
   border: none;
   border-radius: 20px;
   padding: 8px;
-  width: 20rem;
+  width: 100%;
   font-size: 1.1rem;
   cursor: pointer;
   /* Adiciona o cursor pointer no botao para indicar que é clicável */
